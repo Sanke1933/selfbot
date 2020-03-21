@@ -4,12 +4,12 @@ const client = new Discord.Client();
 client.on('message', message => {
     if (message.content === 'пагнали') {
         console.log('пагнали')
-        setInterval(() => message.channel.send('!work'), 59e4);
+        setInterval(() => message.channel.send('!work'), 60e4);
     }
 
     if (message.content === 'пагнали') {
         console.log('пагнали')
-        setInterval(() => message.channel.send('!crime'), 59e4);
+        setInterval(() => message.channel.send('!crime'), 60e4);
     }
 
     if (message.content === 'пагнали') {
