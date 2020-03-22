@@ -2,7 +2,7 @@ const Discord = new require('discord.js');
 const client = new Discord.Client();
 
 client.on('message', message => {
-    if (message.content === 'пагнали') {
+    if (message.content === 'пагналв') {
         console.log('пагнали')
         setInterval(() => message.channel.send('!work'), 61e4);
     }
